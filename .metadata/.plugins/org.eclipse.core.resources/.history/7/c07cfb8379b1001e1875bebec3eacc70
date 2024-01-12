@@ -1,0 +1,5 @@
+package com.example.demo.feignClient;
+
+public class ConsumeServiceBuyProduct {
+
+}

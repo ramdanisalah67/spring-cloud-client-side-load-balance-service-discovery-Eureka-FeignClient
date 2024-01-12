@@ -1,0 +1,11 @@
+package com.example.demo.feignClient;
+
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import com.example.demo.Product;
+
+public interface ConsumeServiceBuyProduct {
+	
+
+}

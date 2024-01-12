@@ -1,0 +1,13 @@
+package com.example.demo.feignClient;
+
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@FeignClient(name="BUYPRODUCT-SERVICE")
+public interface ConsumeServiceBuyProduct {
+	
+	@GetMapping("api/api/buyProduct/product_Info")
+	
+	Product
+
+}
